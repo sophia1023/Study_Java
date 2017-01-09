@@ -1,5 +1,8 @@
 package edu.java.collection05;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class CollectionMain05 {
 
 	public static void main(String[] args) {
@@ -17,7 +20,15 @@ public class CollectionMain05 {
 		// HashSet<E>: 검색을 빠르게 하기 위한 Hash 알고리듬이 적용된 Set
 		// TreeSet<E>: 정렬을 빠르게 하기 위한 Tree 알고리듬이 적용된 Set
 
+		//HashSet<Integer> 객체 생성
+		//HashSet<Integer> set = new HashSet<>();
+		Set<Integer> set = new HashSet<>();
 		
+		//set에 데이터 저장 : add(element)
+		set.add(100);
+		set.add(200);
+		set.add(300);
+		set.add(400);
 
 	}
 
